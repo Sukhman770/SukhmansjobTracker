@@ -2,7 +2,7 @@
 
 
 public enum ApplicationStatus
-{
+{           
     Applied,
     Interview,
     Offer,
@@ -11,8 +11,8 @@ public enum ApplicationStatus
 
 // Klassen representerar en enskild jobbansökan
 public class JobApplication
-{
-    // Företagets namn
+{   
+        // Företagets namn  
     public string CompanyName { get; set; }
 
     // Positionen du sökt
